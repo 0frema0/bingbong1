@@ -1,27 +1,18 @@
 {
-  "name": "discordjs-musicbot",
-  "version": "2.0.0",
-  "description": "Most Advanced open-source discord music bot, Made by NithishPravin",
-  "main": "index.js",
-  "license": "MIT",
+  "name": "music-bot",
+  "main": "main.js",
+  "author": "ZerioDev",
+  "version": "6.0.0",
+  "repository": "https://github.com/ZerioDev/Music-bot.git",
+  "description": "A complete code to download for a cool Discord music bot.",
   "scripts": {
-    "start": "node index.js"
-  },
-  "engines": {
-    "node": "14.x"
+    "start": "node main.js"
   },
   "dependencies": {
-    "@discordjs/opus": "^0.3.2",
-    "discord-ytdl-core": "^5.0.1",
-    "discord.js": "^12.3.1",
-    "dotenv": "^8.2.0",
-    "ffmpeg": "0.0.4",
-    "ffmpeg-static": "^4.2.7",
-    "fs": "0.0.1-security",
-    "lyrics-finder": "^21.4.0",
-    "node-opus": "^0.3.3",
-    "opusscript": "^0.0.7",
-    "yt-search": "^2.2.4",
-    "ytdl-core": "^4.1.1"
+    "discord-player": "^5.1.0",
+    "discord.js": "^13.1.0",
+    "ffmpeg-static": "^4.4.0",
+    "ms": "^3.0.0-canary.1",
+    "opusscript": "^0.0.8"
   }
 }
